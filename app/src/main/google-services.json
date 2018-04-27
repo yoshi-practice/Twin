@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "314849964302",
+    "firebase_url": "https://pair-movie.firebaseio.com",
+    "project_id": "pair-movie",
+    "storage_bucket": "pair-movie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314849964302:android:53198f198c957d87",
+        "android_client_info": {
+          "package_name": "e.yoshi1125hisa.litboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314849964302-tv9t8rs2a5qjnul9n7v7c5a0ov8ml0ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMFvkBbytBV81tsqfLpTHLUsB7tPh07eE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
