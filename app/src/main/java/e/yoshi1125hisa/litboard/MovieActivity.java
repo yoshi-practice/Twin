@@ -33,10 +33,10 @@ public class MovieActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_movie);
 
-        Display disp;
-        disp = getWindowManager().getDefaultDisplay();
+        Display display;
+        display = getWindowManager().getDefaultDisplay();
         DisplayMetrics dm = new DisplayMetrics();
-        disp.getMetrics(dm);
+        display.getMetrics(dm);
 
         double inchX = dm.widthPixels / dm.xdpi;
         double inchY = dm.heightPixels / dm.ydpi;

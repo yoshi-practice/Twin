@@ -10,10 +10,11 @@
     tools:context=".LoginActivity">
 
     <Button
+        android:id="@+id/googleLoginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login by Google"
-        android:id="@+id/googleLoginButton"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:text="Login by Google" />
 </RelativeLayout>
