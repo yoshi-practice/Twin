@@ -159,14 +159,14 @@ public class OpActivity extends AppCompatActivity {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
 
-        new StyleableToast.Builder(this)
-                .text("Welcome to TWIN!")
-                .textColor(Color.WHITE)
-                .backgroundColor(Color.BLUE)
+      //  new StyleableToast.Builder(this)
+        //        .text("Welcome to TWIN!")
+          //      .textColor(Color.WHITE)
+            //    .backgroundColor(Color.BLUE)
                 //.iconResLeft(android.R.drawable.ic_dialog_info)
-                .solidBackground()
-                .length(Toast.LENGTH_SHORT)
-                .show();
+              //  .solidBackground()
+                //.length(Toast.LENGTH_SHORT)
+                //.show();
 
         Intent intent = new Intent(this,LoginActivity.class);
         startActivity(intent);

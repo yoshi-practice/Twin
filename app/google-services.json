@@ -10,10 +10,18 @@
       "client_info": {
         "mobilesdk_app_id": "1:314849964302:android:53198f198c957d87",
         "android_client_info": {
-          "package_name": "e.yoshi1125hisa.litboard"
+          "package_name": "com.lifeistech.android.litboard"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "314849964302-q9b9bj77ba818770r3odr203qf3fe4ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lifeistech.android.litboard",
+            "certificate_hash": "3d3256c9c67aab09f01304d1d4bffedd11dccb89"
+          }
+        },
         {
           "client_id": "314849964302-tv9t8rs2a5qjnul9n7v7c5a0ov8ml0ce.apps.googleusercontent.com",
           "client_type": 3
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314849964302-tv9t8rs2a5qjnul9n7v7c5a0ov8ml0ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
