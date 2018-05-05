@@ -9,7 +9,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+//import android.util.Log;
 
 public class BluetoothActivity extends AppCompatActivity {
 
@@ -53,11 +53,11 @@ public class BluetoothActivity extends AppCompatActivity {
         BluetoothAdapter Bt = BluetoothAdapter.getDefaultAdapter();
         if(!Bt.equals(null)){
             //Bluetooth対応端末の場合の処理
-            Log.d("INFO","Bluetoothがサポートされています。");
+            //Log.d("INFO","Bluetoothがサポートされています。");
         }else{
             //Bluetooth非対応端末の場合の処理
             //Toasty
-            Log.d("INFO","Bluetoothがサポートされていません。");
+            //Log.d("INFO","Bluetoothがサポートされていません。");
             finish();
         }
 
@@ -76,9 +76,9 @@ public class BluetoothActivity extends AppCompatActivity {
         if (requestCode == 1) {
             if (ResultCode == Activity.RESULT_OK) {
                 //BluetoothがONにされた場合の処理
-                Log.d("Message", "BluetoothをONにしてもらえました。");
+                //Log.d("Message", "BluetoothをONにしてもらえました。");
             } else {
-                Log.d("Message", "BluetoothがONにしてもらえませんでした。");
+                //Log.d("Message", "BluetoothがONにしてもらえませんでした。");
                 finish();
             }
         }
